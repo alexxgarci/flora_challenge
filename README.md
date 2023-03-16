@@ -4,7 +4,7 @@
 
 ## Installation
 
-1. 😀 Clone this rep. //TODO:
+1. 😀 Clone https://github.com/ger86/symfony-docker.
 
 2. Create the file `./.docker/.env.nginx.local` using `./.docker/.env.nginx` as template. The value of the variable `NGINX_BACKEND_DOMAIN` is the `server_name` used in NGINX.
 
