@@ -6,11 +6,17 @@
 
 #### To launch the project
 
+- Ensure you have docker and [docker-sync](http://docker-sync.io/) installed.
+- Clone this repository
+
 - *Example 1* (Product A added + Product C added + Voucher S added + Product A added + Voucher V added + Product B added):
+
     ``` $ docker-compose run php bin/console flora:calculate:cart --example=1 ```
 - *Example 2* (Product A added + Voucher S added + Product A added + Voucher V added + Product B added + Voucher R added + Product C added + Product C added + Product C added):
+
     ``` $ docker-compose run php bin/console flora:calculate:cart --example=2 ```
 - Tests:
+
     ``` $ docker-compose run php vendor/phpunit/phpunit/phpunit --testdox src/AddToCartCommandTest.php ```
 
 #### Expected result
